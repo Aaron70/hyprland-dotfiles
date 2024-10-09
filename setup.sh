@@ -199,11 +199,12 @@ if [ -d ~/Downloads/hyprland-starter ] ;then
 fi
 
 # Clone the packages
-git clone --depth 1 https://github.com/mylinuxforwork/hyprland-starter.git
+git clone --depth 1 https://github.com/aaron70/hyprland-dotfile.git
+git checkout personal
 echo ":: Installation files cloned into Downloads folder"
 
 # Change into the folder
-cd hyprland-starter
+cd hyprland-dotfiles
 
 # Start the script
 ./install.sh
