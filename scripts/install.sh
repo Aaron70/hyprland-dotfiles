@@ -69,6 +69,11 @@ source install/$installer/common_configurations.sh
 source install/$installer/vm_configurations.sh
 
 # ----------------------------------------------------- 
+# Clone Nvim configurations
+# ----------------------------------------------------- 
+source install/$installer/install_nvim.sh
+
+# ----------------------------------------------------- 
 # Create Backup
 # ----------------------------------------------------- 
 source install/includes/backup.sh
@@ -82,12 +87,12 @@ source install/includes/backup.sh
 # ----------------------------------------------------- 
 # Keyboard
 # ----------------------------------------------------- 
-source install/includes/keyboard.sh
+# source install/includes/keyboard.sh
 
 # ----------------------------------------------------- 
 # Screen Resolution
 # ----------------------------------------------------- 
-source install/includes/monitor.sh
+# source install/includes/monitor.sh
 
 # ----------------------------------------------------- 
 # KVM

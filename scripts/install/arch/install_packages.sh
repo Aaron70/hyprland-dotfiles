@@ -38,11 +38,12 @@ installer_packages=(
     "bat"
     "zoxide"
     "eza"
+    "less"
     "tmux"
     "open-vm-tools"
     # Fonts
-    #"ttf-jetbrains-mono-nerd"
-    #"noto-fonts"
+    "ttf-jetbrains-mono-nerd"
+    "noto-fonts"
 )
 
 installer_yay=(

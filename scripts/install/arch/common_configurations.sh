@@ -1,6 +1,6 @@
 clear
 echo "Writing env variables for common configuration..."
-sudo bash -c "echo -e \"$(cat /etc/environment)\n\n# Arch dotfiles env variables \n$(cat install/$intaller/.env-common)\" > /etc/environment" 
+sudo bash -c "echo -e \"$(cat /etc/environment)\n\n# Arch dotfiles env variables \n$(cat install/$installer/.env-common)\" > /etc/environment" 
 if [ $? -ne 0 ]; then
   echo "Couldn't write the env variables..."
   exit 1

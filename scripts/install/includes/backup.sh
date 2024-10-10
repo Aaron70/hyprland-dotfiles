@@ -4,9 +4,13 @@ backup_files=(
     ".config/hypr"
     ".config/ml4w"
     ".config/rofi"
+    ".config/tmux"
     ".config/waybar"
     ".config/wlogout"
+    ".config/zsh"
     ".bashrc"
+    ".zshrc"
+    "ohmyposh"
 )
 
 echo -e "${GREEN}"
